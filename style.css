@@ -38,10 +38,9 @@ body {
   flex-direction: column;
   align-items: center;
   max-width: 600px;
-  gap: 130px;
   height: 100vh;
   position: relative;
-  margin-left: 125px;
+  margin-left: 275px;
 }
 
 .cast {
@@ -87,10 +86,11 @@ body {
 }
 
 .social {
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  size: 2%;
 }
 
 .social i {
@@ -115,7 +115,7 @@ footer {
   position: absolute;
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
   bottom: 20px;
   left: -40px;
 }
